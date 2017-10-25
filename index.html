@@ -1,504 +1,431 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- SITE TITTLE -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Small Apps</title>
+  
+  <!-- PLUGINS CSS STYLE -->
+  <!-- Bootstrap -->
+  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Themefisher Font -->  
+  <link href="plugins/themefisher-font/style.css" rel="stylesheet">
+  <!-- Owl Carousel -->
+  <link href="plugins/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet" media="screen">
+  <!-- Owl Carousel Theme -->
+  <link href="plugins/owl-carousel/assets/owl.theme.green.min.css" rel="stylesheet" media="screen">
+  <!-- Fancy Box -->
+  <link href="plugins/fancybox/jquery.fancybox.min.css" rel="stylesheet">
 
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,700,600,500' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- FAVICON -->
+  <link href="images/favicon.png" rel="shortcut icon">
+
+</head>
+
+<body class="body-wrapper">
 
 
-        <link rel="stylesheet" href="css/slicknav.css">
-        <link rel="stylesheet" href="css/owl.theme.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/owl.transitions.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<nav class="navbar main-nav navbar-expand-lg p-0">
+  <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="tf-ion-android-menu"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown active dropdown-slide">
+          <a class="nav-link" href="#"  data-toggle="dropdown">Home
+            <span><i class="tf-ion-ios-arrow-down"></i></span>
+          </a>
+          <!-- Dropdown list -->
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="homepage.html">Homepage</a>
+            <a class="dropdown-item" href="homepage-2.html">Homepage 2</a>
+            <a class="dropdown-item" href="homepage-3.html">Homepage 3</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown dropdown-slide">
+          <a class="nav-link" href="#"  data-toggle="dropdown">Pages
+            <span><i class="tf-ion-ios-arrow-down"></i></span>
+          </a>
+          <!-- Dropdown list -->
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="team.html">Team</a>
+            <a class="dropdown-item" href="career.html">Career</a>
+            <a class="dropdown-item" href="blog.html">Blog</a>
+            <a class="dropdown-item" href="blog-single.html">Blog Single</a>
+            <a class="dropdown-item" href="privacy-policy.html">Privacy</a>
+            <a class="dropdown-item" href="FAQ.html">FAQ</a>
+            <a class="dropdown-item" href="sign-in.html">Sign In</a>
+            <a class="dropdown-item" href="sign-up.html">Sign Up</a>
+            <a class="dropdown-item" href="404.html">404</a>
+            <a class="dropdown-item" href="comming-soon.html">Coming Soon</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      </div>
+  </div>
+</nav>
+<!--==================================
+=            Hero Section            =
+===================================-->
 
-        <!-- Add your site or application content here -->
-         
-         <!-- header Start
-         ================================================= -->
-        
-        <section id="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="block-left">
-							<nav class="navbar navbar-default" role="navigation">
-							  <div class="container-fluid">
-								<!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header">
-								  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								  </button>
-								  <div class="nav-logo">
-									<a href="#"><img src="img/logo.png" alt="logo"></a>
-								  </div>
-								</div>
-
-								<!-- Collect the nav links, forms, and other content for toggling -->
-								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-								  <ul class="nav navbar-nav">
-									<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-									<li><a href="#">Features</a></li>
-									<li><a href="#">Screenshot</a></li>
-									<li><a href="#">Gallery</a></li>
-								  </ul>
-								</div><!-- /.navbar-collapse -->
-							  </div><!-- /.container-fluid -->
-							</nav>
-                        </div>
-                    </div><!-- .col-md-6 -->
-
-                    <div class="col-md-6">
-                        <div class="block-right">
-                            <div class="contact-area">
-                                <ul>
-                                    <li><i class="fa fa-phone-square"></i>800-123-456</li>
-                                    <li><i class="fa fa-envelope-o"></i>smallapps@gmail.com</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #heder close -->
-
-        <!-- Slider Start
-        ============================================================== -->
-
-        <section id="slider">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <div class="slider-text-area">
-                                <div class="slider-text">
-                                    <h2>Perfect app landing page <br></h2> 
-                                    <p class="sub-slider-text">Duis bibendum diam</p>
-                                    <p class="slider-p">Donec elementum mollis magna id aliquet. Etiam eleifend urna eget sem <br>
-                                    sagittis feugiat. Pellentesque habitant morbi tristique senectus et <br>
-                                    netus et malesuada fames ac turpis egestas.</p>
-                                    <button type="button" class="btn btn-default edit-button-1">DOWNLOAD</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 close -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #slider close -->
-
-        <!-- Service Start 
-        ============================================================= -->
-
-        <section id="service">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block-top">
-                            <div class="service-header">
-                                <h1>Heading Feature title goes here</h1>
-                                <p>Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. <br /> Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.</p>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 close -->
-                </div><!-- row close -->
-				<div class="row">
-					<div class="col-md-12">
-						<div class="block-bottom">
-							<div class="service-tab">
-								  <!-- Nav tabs -->
-								  <ul class="badhon-tab" role="tablist">
-									<li class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-									<i class="fa fa-heart-o"></i>
-									Heading title one
-									</a></li>
-									<li><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-									<i class="fa fa-briefcase"></i>
-									Heading title one
-									</a></li>
-									<li><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
-									<i class="fa fa-leaf"></i>
-									Heading title one
-									</a></li>
-									<li><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
-									<i class="fa fa-briefcase"></i>
-									Heading title one
-									</a></li>
-									<li><a href="#umbrella" aria-controls="settings" role="tab" data-toggle="tab">
-									<i class="fa fa-umbrella"></i>
-									Heading title one
-									</a></li>
-								  </ul>
-
-								  <!-- Tab panes -->
-								  <div class="tab-content edit-tab-content">
-									<div class="tab-pane active edit-tab" id="home">
-										<div class="teb-icon-edit">
-											<i class="fa fa-heart-o"></i>
-										</div>
-										<h1>Heading Feature title goes here</h1>
-										<p>Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac <br /> neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id <br /> orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt <br /> ligula, ac luctus mi interdum a.</p>
-									</div>
-									<div class="tab-pane edit-tab" id="profile">
-										<div class="teb-icon-edit">
-											<i class="fa fa-briefcase"></i>
-										</div>
-										<h1>Heading Feature title goes here</h1>
-										<p>Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac <br /> neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id <br /> orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt <br /> ligula, ac luctus mi interdum a.</p>
-									</div>
-									<div class="tab-pane edit-tab" id="messages">
-										<div class="teb-icon-edit">
-											<i class="fa fa-leaf"></i>
-										</div>
-										<h1>Heading Feature title goes here</h1>
-										<p>Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac <br /> neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id <br /> orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt <br /> ligula, ac luctus mi interdum a.</p>
-									</div>
-									<div class="tab-pane edit-tab" id="settings">
-										<div class="teb-icon-edit">
-											<i class="fa fa-briefcase"></i>
-										</div>
-										<h1>Heading Feature title goes here</h1>
-										<p>Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac <br /> neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id <br /> orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt <br /> ligula, ac luctus mi interdum a.</p>
-									</div>
-									<div class="tab-pane edit-tab" id="umbrella">
-										<div class="teb-icon-edit">
-											<i class="fa fa-umbrella"></i>
-										</div>
-										<h1>Heading Feature title goes here</h1>
-										<p>Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac <br /> neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id <br /> orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt <br /> ligula, ac luctus mi interdum a.</p>
-									</div>
-								  </div>
-							</div>
+<section class="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 m-auto">
+				<!-- Banner Contents -->
+				<div class="block text-center">
+					<h1>The new way to Change Lifestyle</h1>
+					<p>The simple, intuitive app that makes it easy to make happy, <br>
+						manage your lifestyle, and work balances faster.
+					</p>
+					<!-- Go to App page -->
+					<ul class="list-inline app-badge">
+						<!-- Apple Store -->
+						<li class="list-inline-item">
+							<a href="#"><img src="images/app/appple-store.png" alt="Apple Store"></a>
+						</li>
+						<!-- Google Play -->
+						<li class="list-inline-item">
+							<a href="#"><img src="images/app/google-play.png" alt="Google Play"></a>
+						</li>
+					</ul>
+					<!-- Promo Video -->
+					<div class="video">
+						<img class="img-fluid shadow" src="images/thumbs/promo-video-thumbnail.png" alt="video-thumbnail">
+						<div class="video-button video-box">
+							<!-- Video Play Button -->
+							<a href="javascript:void(0)">
+								<i class="tf-ion-play" data-video="https://www.youtube.com/embed/g3-VxLQO7do?autoplay=1"></i>
+							</a>
 						</div>
-					</div><!-- .col-md-12 close -->
-				</div><!-- row close -->
-            </div><!-- .container close -->
-        </section><!-- #service close -->
+					</div>
+					<!-- Clients -->
+					<ul class="list-inline clients-logo">
+						<!-- Client Logo -->
+						<li class="list-inline-item">
+							<a href="#"><img src="images/clients/buzz-feed.png" alt="buzz-feed"></a>
+						</li>
+						<!-- Client Logo -->
+						<li class="list-inline-item">
+							<a href="#"><img src="images/clients/the-new-york-times.png" alt="the-new-york-times"></a>
+						</li>
+						<!-- Client Logo -->
+						<li class="list-inline-item">
+							<a href="#"><img src="images/clients/tech-crunch.png" alt="tech-crunch"></a>
+						</li>
+						<!-- Client Logo -->
+						<li class="list-inline-item">
+							<a href="#"><img src="images/clients/the-washington-post.png" alt="the-washington-post"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Hero Section  ====-->
+
+<!--==============================
+=            Services            =
+===============================-->
+<section class="services section bg-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<!-- Section Title -->
+				<div class="section-title">
+					<h2>What is Small Apps</h2>
+					<p>Small Apps makes it easy to stay on top of your Life Style.
+						No late tasks. No gimmicks.</p>
+				</div> 
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 align-self-center">
+				<!-- Service 01 -->
+				<div class="service-block shadow">
+	<!-- Icon -->
+	<i class="tf-presentation"></i>
+	<h3>Lifestyle Development</h3>
+	<p>Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Vivamus</p>
+</div>
+				<!-- Service 02 -->
+				<div class="service-block shadow">
+	<!-- Icon -->
+	<i class="tf-telescope"></i>
+	<h3>Impressive Support</h3>
+	<p>Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Vivamus</p>
+</div>
+			</div>
+			<div class="col-lg-4 m-auto">
+				<div class="app-preview">
+					<img src="images/feature/iphone.png" alt="iphone">				
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 align-self-center">
+				<!-- Service 03 -->
+				<div class="service-block shadow">
+	<!-- Icon -->
+	<i class="tf-tools"></i>
+	<h3>UI/UX Design</h3>
+	<p>Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Vivamus</p>
+</div>
+				<!-- Service 04 -->
+				<div class="service-block shadow">
+	<!-- Icon -->
+	<i class="tf-strategy"></i>
+	<h3>Performance Marketing</h3>
+	<p>Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Vivamus</p>
+</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of Services  ====-->
+
+<!--==================================
+=            Feature Grid            =
+===================================-->
+<section class="feature section">
+	<div class="container-fluid p-0">
+		<div class="row no-gutters">
+			<div class="col-lg-6">
+				<!-- Feature Image -->
+				<div class="feature-image left">
+					<img class="img-fluid" src="images/feature/iphone-ipad.png" alt="iphone-ipad">
+				</div>
+			</div>
+			<div class="col-lg-4 mr-auto align-self-center">
+				<!-- Feature Content -->
+				<div class="feature-content">
+					<h2>The Complete Toolkit For Task Management</h2>
+					<p>Nulla porttitor accumsan tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit eget malesuada.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="feature section bg-gray">
+	<div class="container-fluid p-0">
+		<div class="row no-gutters">
+			<div class="col-lg-4 ml-auto align-self-center">
+				<!-- Feature Content -->
+				<div class="feature-content">
+					<h2>The Complete Toolkit For Task Management</h2>
+					<p>Nulla porttitor accumsan tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit eget malesuada.</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<!-- Feature Image -->
+				<div class="feature-image right">
+					<img class="img-fluid" src="images/feature/ipad.png" alt="ipad">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of Feature Grid  ====-->
+
+<!--==================================
+=            App Features            =
+===================================-->
+
+<section class="app-features section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section-title">
+					<h2>What is Small Apps</h2>
+					<p>Small Apps makes it easy to stay on top of your Life Style. <br>
+						No late tasks. No gimmicks.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<!-- App Feature Image -->
+				<div class="app-explore">
+					<img class="img-fluid" src="images/feature/ipad-lied.png" alt="ipad-lied">
+				</div>
+			</div>
+			<!-- Feature 01-->
+			<div class="col-lg-4 col-md-4">
+				<div class="app-feature text-center">
+					<!-- Heading -->
+					<h3>Creative Designs</h3>
+					<!-- Description -->
+					<p>Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt.</p>
+				</div>
+			</div>
+			<!-- Feature 02-->
+			<div class="col-lg-4 col-md-4">
+				<div class="app-feature text-center">
+					<!-- Heading -->
+					<h3>Highly Customizable</h3>
+					<!-- Description -->
+					<p>Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt.</p>
+				</div>
+			</div>
+			<!-- Feature 02-->
+			<div class="col-lg-4 col-md-4">
+				<div class="app-feature text-center">
+					<!-- Heading -->
+					<h3>Built For Startups</h3>
+					<!-- Description -->
+					<p>Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of App Features  ====-->
+
+<section class="call-to-action-app section bg-blue">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>It's Time to change your mind</h2>
+				<p>Download over 2 million humans .Get Small Apps free forever!
+					<br>We say you won’t look back.</p>
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<a href="" class="btn btn-rounded-icon">
+							<i class="tf-ion-social-apple"></i>
+							Iphone
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="" class="btn btn-rounded-icon">
+							<i class="tf-ion-social-android"></i>
+							Android
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="" class="btn btn-rounded-icon">
+							<i class="tf-ion-social-windows"></i>
+							Windows
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--============================
+=            Footer            =
+=============================-->
+
+<footer class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+          <div class="block">
+            <a href="index.html"><img src="images/logo-footer.svg" alt="footer-logo"></a>
+            <!-- Social Site Icons -->
+            <ul class="social-icon list-inline">
+              <li class="list-inline-item">
+                <a href="#"><i class="tf-ion-social-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="tf-ion-social-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="tf-ion-social-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Product</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="">Features</a></li>
+              <li><a href="">Testimonial</a></li>
+              <li><a href="">Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Resources</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="sign-up.html">Singup</a></li>
+              <li><a href="sign-in.html">Login</a></li>
+              <li><a href="#">Help & Support</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Company</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="career.html">Career</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="">Investor</a></li>
+              <li><a href="privacy.html">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Company</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="">Career</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Investor</a></li>
+              <li><a href="">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
 
 
-        <!-- contant-1 start
-        ===================================================== -->
 
-        <section id="contant-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="block-left">
-                            <div class="contant-1-text-area">
-                                <div class="contant-1-head">
-                                    <h1>Onec ultrices ultricies tellus <br> perfect screens here</h1>
-                                </div>
-                                <div class="contant-1-text">
-                                    <h2>Duis bibendum diam non <br> erat facilisis tincidunt.</h2>
-                                    <p>Duis bibendum diam non erat facilaisis tincidunt. Fusce leo <br /> neque, lacinia at tempor vitae, porta at arcu. Vestibulum <br /> varius non dui at pulvinar. Ut egestas orci in quam <br /> sollicitudin aliquet. </p>
-                                    <button type="button" class="btn btn-default edit-button-2">LEARN MORE</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-                    <div class="col-md-6">
-                        <div class="block-right">
-                            <div class="block-right-img">
-                                <img src="img/mobile-phon-1.png" alt="img">
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #contant-1 close -->
+  <!-- JAVASCRIPTS -->
+  
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA" async defer></script>
 
+  <script src="plugins/jquery/jquery.js"></script>
+  <script src="plugins/popper/popper.min.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/smoothscroll/SmoothScroll.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  
+  <script src="js/custom.js"></script>
+</body>
 
-        <!-- Gallery Start
-        ============================================================= -->
-
-        <section id="gallery">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block-top">
-                            <div class="gallery-area">
-                                <h1>Our Latest screenshots gallery</h1>
-                                <p>Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. <br /> Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.</p>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 -->
-                </div><!-- .row close -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block-bottom">
-                            <div class="gallery-list" id="owl-demo">
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/mobile-phon-2.png" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                        <p>Duis bibendum diam non erat facilaisis <br>
-                                        tincidunt. Fusce leo neque, lacinia at <br>
-                                        tempor vitae, porta at arcu.</p>
-                                    </div>
-                                </div>
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/mobile-phon-2.png" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                        <p>Duis bibendum diam non erat facilaisis <br>
-                                        tincidunt. Fusce leo neque, lacinia at <br>
-                                        tempor vitae, porta at arcu.</p>
-                                    </div>
-                                </div>
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/mobile-phon-2.png" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                        <p>Duis bibendum diam non erat facilaisis <br>
-                                        tincidunt. Fusce leo neque, lacinia at <br>
-                                        tempor vitae, porta at arcu.</p>
-                                    </div>
-                                </div>
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/mobile-phon-2.png" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                        <p>Duis bibendum diam non erat facilaisis <br>
-                                        tincidunt. Fusce leo neque, lacinia at <br>
-                                        tempor vitae, porta at arcu.</p>
-                                    </div>
-                                </div>
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/mobile-phon-2.png" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                        <p>Duis bibendum diam non erat facilaisis <br>
-                                        tincidunt. Fusce leo neque, lacinia at <br>
-                                        tempor vitae, porta at arcu.</p>
-                                    </div>
-                                </div>
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/mobile-phon-2.png" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                        <p>Duis bibendum diam non erat facilaisis <br>
-                                        tincidunt. Fusce leo neque, lacinia at <br>
-                                        tempor vitae, porta at arcu.</p>
-                                    </div>
-                                </div>
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/mobile-phon-2.png" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                        <p>Duis bibendum diam non erat facilaisis <br>
-                                        tincidunt. Fusce leo neque, lacinia at <br>
-                                        tempor vitae, porta at arcu.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 close -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #gallery close -->
-
-
-        <!-- Contant-2 Start
-        =============================================================== -->
-
-        <section id="contant-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="block-left">
-                            <div class="contant-2-img">
-                                <img src="img/mobile-phon-3.png" alt="img">
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-
-                    <div class="col-md-6">
-                        <div class="block-right">
-                            <div class="contant-2-text-area">
-                                <div class="contant-2-header">
-                                    <h1>Onec ultrices ultricies tellus<br> perfect screens here</h2>
-                                </div>
-                                <div class="contant-2-text">
-                                   <h2>Duis bibendum diam non <br> erat facilisis tincidunt.</h3>
-                                   <p>Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet. </p>
-                                   <button type="button" class="btn btn-default edit-button-3">LEARN MORE</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #contant-2 close -->
-
-        <!-- testimonial Start
-        ============================================================= -->
-
-        <section id="testimonial">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <div class="testimonial-area">
-                                <div class="tm-header">
-                                    <h2>What people say about us</h2>
-                                </div>
-                                <div class="tm-contant">
-									<div class="tm-contant-items" id="slide-testimonial">
-										<div class="tm-contant-list item">
-											<div class="tm-img">
-												<img src="img/pepole-img.png" alt="img">
-											</div>
-											<div class="tm-text">
-												<p>" It’s official – I love this app, I couldn’t be without it now." <span>- Ron Burgundy</span></p>
-											</div>
-										</div>
-										<div class="tm-contant-list item">
-											<div class="tm-img">
-												<img src="img/pepole-img.png" alt="img">
-											</div>
-											<div class="tm-text">
-												<p>" It’s official – I love this app, I couldn’t be without it now." <span>- Ron Burgundy</span></p>
-											</div>
-										</div>
-										<div class="tm-contant-list item">
-											<div class="tm-img">
-												<img src="img/pepole-img.png" alt="img">
-											</div>
-											<div class="tm-text">
-												<p>" It’s official – I love this app, I couldn’t be without it now." <span>- Ron Burgundy</span></p>
-											</div>
-										</div>
-									</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 close -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #testimonial close -->
-
-
-        <!-- Submit Start
-        ======================================================== -->
-
-        <section id="submit-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <div class="submit-contant">
-                                <div class="submit-header">
-									<i class="fa fa-envelope-o"></i>
-                                    <h3>Subscribe our Newsletter</h3>                                   
-                                </div>
-								<div class="submit-area">
-									<div class="submit-bottom">
-										<form action="">
-											<input type="text" placeholder="your email address">
-											<input type="submit" value="submit">
-										</form>
-									</div>
-								</div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #submit close -->
-
-
-        <!-- footer Start
-        ====================================================================== -->
-
-        <section id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <div class="footer-contant">
-                                <h3>Say Hi, Get In Touch</h3>
-                                <div class="social-icon">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-tumblr"></i></a>
-                                    <a href="#"><i class="fa fa-google"></i></a>
-                                    <a href="#"><i class="fa fa-flickr"></i></a>
-                                    <a href="#"><i class="fa fa-youtube"></i></a>
-                                </div>
-                                <div class="support-link">
-                                    <ul>
-                                        <li><a href="#">Contact</a></li>
-                                        <li><a href="#">Twitter</a></li>
-                                        <li><a href="#">Press</a></li>
-                                        <li><a href="#">Support</a></li>
-                                        <li><a href="#">Developers</a></li>
-                                        <li><a href="#">Privacy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- col-md-12 -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </section><!-- #footer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
 </html>
+
+
+
